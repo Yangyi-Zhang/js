@@ -1,6 +1,6 @@
-# This is a Tic Tac Toe game written in JavaScript.
+## This is a Tic Tac Toe game written in JavaScript
 
-Below is the README file original to the template
+Below is the README file original to the template:
 
 # template-web
 
