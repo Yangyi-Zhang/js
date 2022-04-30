@@ -1,5 +1,5 @@
 This is a Tic Tac Toe game written in JavaScript.
-
+```
 ---- README file original to the template ----
 
 # template-web
