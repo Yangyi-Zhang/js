@@ -1,3 +1,7 @@
+This is a Tic Tac Toe game written in JavaScript.
+
+---- README file original to the template ----
+
 # template-web
 
 Vite + Vue 3 + VueRouter 4 + TailwindCSS + Heroicons
