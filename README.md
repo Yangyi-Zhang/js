@@ -2,7 +2,7 @@
 
 Below is the README file original to the template:
 
-# template-web
+## template-web
 
 Vite + Vue 3 + VueRouter 4 + TailwindCSS + Heroicons
 
