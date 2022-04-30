@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background:#1abc9c;
+  color:white;
+  font-size: 30px;
+}
+.content {padding:20px;}
+
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px;
   font-family: sans-serif;
+  flex-direction: column;
 }
 * {
   outline: none;
@@ -23,4 +36,50 @@ body {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+/* chess board */
+.main {
+  width: 450px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+  grid-template-rows: repeat(3,33.33%);
+  background-color: rgba(0, 255, 233, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -225px;
+  margin-top: -225px;
+}
+.main div {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* button and interaction */
+.btn {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  user-select: none;
+  cursor: pointer;
+}
+.tool {
+  margin-top: 8px;
+  user-select: none;
+}
+.tool span {
+  display: inline;
+  cursor: pointer;
+  user-select: none;
+  padding: 2px 5px;
+  border: 1px solid #333;
+}
+.tool span:hover {
+  background-color: #ccc;
+  color: #333;
 }
